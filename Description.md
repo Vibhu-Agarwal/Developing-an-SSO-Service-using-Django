@@ -19,7 +19,7 @@ Sessions store the data for making further authorized requests and can be mainta
 
 > OIDC is an authentication protocol, based on the OAuth 2.0 family of
 > specifications. It uses simple JSON Web Tokens (JWT), which can be
-> obtained using flows conforming to the [OAuth 2.0 specifications](https://tools.ietf.org/html/rfc6749).
+> obtained using flows conforming to the [OAuth 2.0 specifications](https://www.oauth.com/oauth2-servers/map-oauth-2-0-specs/).
 
 We'll be following OIDC and using [JWT](https://jwt.io/) for transferring [Access Tokens](https://tools.ietf.org/html/rfc6749#section-1.4) and [Refresh Tokens](https://tools.ietf.org/html/rfc6749#section-1.5) through HTTP(s).
 
