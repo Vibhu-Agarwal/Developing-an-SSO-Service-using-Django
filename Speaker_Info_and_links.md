@@ -1,8 +1,6 @@
-
 # Speaker Info
-I am an avid Pythonista and an Open-Source Enthusiast, currently working at [Viga Studios](https://vigastudios.com/)  as a back-end developer, Intern.  
-Since moving to Noida three years ago, I've always been a community guy, organizing workshops in college on weekdays and spending weekends attending meetups and conferences all over Delhi-NCR at PyDelhi, PyData, ILUG-D, AWS and GDG.  
-Recently, I've started developing cross-platform mobile apps for the first time, after being a back-end dev. for a long time.
+
+I am an avid Pythonista and an Open-Source Enthusiast, currently working at [Viga Studios](https://vigastudios.com/)  as a back-end developer, Intern.  I've always been a community guy, organizing workshops in college on weekdays and spending weekends attending meetups and conferences all over Delhi-NCR at PyDelhi, PyData, ILUG-D, AWS and GDG.
 
 # Speaker Links
 
