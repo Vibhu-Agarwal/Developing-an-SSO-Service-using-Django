@@ -71,8 +71,8 @@ Introduction to **Asymmetric Keys** and their usage
 
 ### The Timeline (Outline)
 - Single-Sign-On Introduction (3 minutes)
-  - Importance from client/user perspective
-  - Importance from business/developer perspective
+  - Importance from the client/user perspective
+  - Importance from the business/developer perspective
 - Working of a SSO service (3 minutes)
 - List of commonly Used Protocols and their data-exchange format (2 minutes)
 - In-depth discussion on OpenID Connect and OAuth2.0 (5 minutes)
