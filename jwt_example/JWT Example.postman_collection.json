@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "cca9b877-6d8a-4431-acd2-31a3db52486e",
+		"name": "JWT Example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Token Pair",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"vibhu\",\n\t\"password\": \"password\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/token/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"token",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Access Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"refresh\": \"refresh-token\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/token/refresh/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"token",
+						"refresh",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Access Protected Resource",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "Access_Token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/protected-resource/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"protected-resource",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "ab84e7e2-c43c-4047-ad38-4b6d8e779e41",
+			"key": "url",
+			"value": "http://127.0.0.1:8001",
+			"type": "string"
+		}
+	]
+}
