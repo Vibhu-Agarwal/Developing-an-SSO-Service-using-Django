@@ -1,8 +1,7 @@
-
-
 # PyCon-India-2020
 
-Proposal: [**Developing a Single-Sign-On Service using Django**](https://in.pycon.org/cfp/2020/proposals/developing-a-single-sign-on-service-using-django~b26Mb/)
+Proposal: [**Developing a Single-Sign-On Service using Django**](https://in.pycon.org/cfp/2020/proposals/developing-a-single-sign-on-service-using-django~b26Mb/)  
+Date & Venue: **October 3, 15:20 IST** (Online)
 
 ## **Description:**
 
