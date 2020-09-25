@@ -1,0 +1,362 @@
+{
+	"info": {
+		"_postman_id": "b96c0bb8-f8ef-43a4-ae3a-2164d328b6f9",
+		"name": "Single-Sign-On",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sign-Up",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"testuser@vigastudios.com\",\n\t\"first_name\": \"Test User 1\",\n\t\"phone_number\": \"+917777777777\",\n\t\"password\": \"passoword\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/signup/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"signup",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"orgadmin@vigastudios.com\",\n\t\"password\": \"cheezyadmin\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/token/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"token",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get New Access Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"refresh\": \"refresh-token\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/token/refresh/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"token",
+						"refresh",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Organization Users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/organizations/users/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"organizations",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch all Services",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/service/all/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"service",
+						"all",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Connection",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"user\": \"user-id\",\n\t\"service\": \"service-id\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/connection/new/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"connection",
+						"new",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Public Key",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/fetch-public-key/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"fetch-public-key",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List and Create Services",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Service Name\",\n\t\"identifier\": \"SERVICE-ID\",\n\t\"callback_url\": \"http://127.0.0.1:8000/user/create/\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/service/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"service",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Detail",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/user/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Subscription",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"service\": \"service-id\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/subscription/new/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"subscription",
+						"new",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "f2c9c8a9-e805-4994-ad37-105649f5c1ee",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "c2bb057c-4df6-47ac-9537-9f844e5ffe07",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "5c7e79f6-fb1a-4642-a4d8-4f4961a68af9",
+			"key": "url",
+			"value": "http://127.0.0.1:8001",
+			"type": "string"
+		}
+	]
+}
