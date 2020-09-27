@@ -7,5 +7,5 @@ class HelloPythonistaAPIView(APIView):
     permission_classes = (IsAuthenticated,)
 
     def get(self, request):
-        content = {'message': 'Hello, Pythonistas!'}
+        content = {'message': 'Hello, Pythonistas, from Stand-Alone-Service!'}
         return Response(content)
