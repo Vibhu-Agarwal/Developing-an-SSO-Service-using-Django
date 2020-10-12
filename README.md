@@ -99,7 +99,7 @@ Introduction to **Asymmetric Keys** and their usage
 
 ### **Content URLs:**
 
-[**Slide Deck Link**](https://docs.google.com/presentation/d/1xJBVXy3IUX-ht9XtTcQy3UBxmfjb3dzmibuBTIrQtt0/edit?usp=sharing)
+[**Slide Deck Link**](https://speakerdeck.com/vibhu4agarwal/developing-an-sso-service-using-django)
 
 #### References:
  1. Single-Sign-On - [Wikipedia](https://en.wikipedia.org/wiki/Single_sign-on)
