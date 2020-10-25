@@ -1,7 +1,7 @@
 # Developing-a-Single-Sign-On-Service-using-Django
 
 ## Talks
-[PyCon India 2020](https://in.pycon.org/2020/) | 15:20 IST, October 3, 2020 | Online - [Streamed on Hopin](https://app.hopin.to/events/pyconindia2020/)  
+[PyCon India 2020](https://in.pycon.org/2020/) | 15:20 IST, October 3, 2020 | Online - [Streamed on Hopin](https://app.hopin.to/events/pyconindia2020/) | [Slide Deck Link](https://speakerdeck.com/vibhu4agarwal/developing-an-sso-service-using-django)  
 [PyCon Sweden 2020](http://www.pycon.se/2020/) | November 12-13, 2020 | Online - [Stream on YouTube](https://www.youtube.com/playlist?list=PLQYPYhKQVTvd1LazhZkZg1CFG6WCyOavC)
 
 
@@ -94,14 +94,6 @@ Introduction to **Asymmetric Keys** and their usage
 -   Used [Django](https://www.djangoproject.com/) once
 -   Basic understanding of [JWT](https://jwt.io/introduction/)
 -   Basic understanding of [REST](https://restfulapi.net/)
-
-### **Video URL:**
-
-[Watch on YouTube](https://youtu.be/a19NHs2d31k)
-
-### **Content URLs:**
-
-[**Slide Deck Link**](https://speakerdeck.com/vibhu4agarwal/developing-an-sso-service-using-django)
 
 #### References:
  1. Single-Sign-On - [Wikipedia](https://en.wikipedia.org/wiki/Single_sign-on)
