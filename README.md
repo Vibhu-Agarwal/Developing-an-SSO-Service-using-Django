@@ -2,7 +2,7 @@
 
 ## Talks
 [**PyCon India 2020**](https://in.pycon.org/2020/) | 15:20 IST, October 3, 2020 | Online - [Streamed on Hopin](https://app.hopin.to/events/pyconindia2020/) | [Slide Deck Link](https://speakerdeck.com/vibhu4agarwal/developing-an-sso-service-using-django)  
-[**PyCon Sweden 2020**](http://www.pycon.se/2020/) | 14:15 CET, November 12, 2020 | Online - [Stream on YouTube](https://www.youtube.com/playlist?list=PLQYPYhKQVTvd1LazhZkZg1CFG6WCyOavC)
+[**PyCon Sweden 2020**](http://www.pycon.se/2020/) | 14:15 CET, November 12, 2020 | Online - [Stream on YouTube](https://youtu.be/4BN2Np7fUqY)
 
 
 ## **Description:**
