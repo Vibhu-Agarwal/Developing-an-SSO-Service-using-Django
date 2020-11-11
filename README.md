@@ -76,7 +76,7 @@ Introduction to **Asymmetric Keys** and their usage
 
 -   Basic understanding of [JWT](https://jwt.io/introduction/)
 -   Basic understanding of (RESTful) Web APIs
--   To understand the last 30% of the talk, basic knowledge [Django](https://www.djangoproject.com/) and [REST Framework](django-rest-framework.org/)
+-   To understand the last 30% of the talk, basic knowledge [Django](https://www.djangoproject.com/) and [REST Framework](https://www.django-rest-framework.org/)
 
 #### References:
  1. Single-Sign-On - [Wikipedia](https://en.wikipedia.org/wiki/Single_sign-on)
