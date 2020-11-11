@@ -72,30 +72,11 @@ Introduction to **Asymmetric Keys** and their usage
 -   Configuring SSO to integrate individual services
     -   As the new services and products are created, their integration with SSO should require minimum effort and how we can configure the SSO to do that
 
-### The Timeline (Outline)
-- Single-Sign-On Introduction (3 minutes)
-  - Importance from the client/user perspective
-  - Importance from the business/developer perspective
-- Working of a SSO service (3 minutes)
-- List of commonly Used Protocols and their data-exchange format (2 minutes)
-- In-depth discussion on OpenID Connect and OAuth2.0 (5 minutes)
-  - JWT, Access and Refresh Tokens: Concept, Working and a short Demo via Postman
-- Project design and work-flow (5 minutes)
-  - Database Design
-  - Flow of Data
-  - Asymmetric Keys: Algorithm used and its need
-- Code Walk-through (8 minutes)
-  - Defining User Models and Creating permission classes
-  - Configuring JWT settings, adding custom claims to tokens
-  - Defining Serializers, Using Generic APIs
-- Setting up SSO to smoothly integrate with new services (2 minutes)
-- Q & A
-
 ### **Prerequisites:**
 
--   Used [Django](https://www.djangoproject.com/) once
 -   Basic understanding of [JWT](https://jwt.io/introduction/)
--   Basic understanding of [REST](https://restfulapi.net/)
+-   Basic understanding of (RESTful) Web APIs
+-   To understand the last 30% of the talk, basic knowledge [Django](https://www.djangoproject.com/) and [REST Framework](django-rest-framework.org/)
 
 #### References:
  1. Single-Sign-On - [Wikipedia](https://en.wikipedia.org/wiki/Single_sign-on)
