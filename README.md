@@ -4,7 +4,7 @@
 | Conference | Date and Time | Venue | Slide Deck | Video
 |--|--|--|--|--|
 | [**PyCon Sweden 2020**](http://www.pycon.se/2020/) | 14:15 CET, November 12, 2020 | Online | [Link](https://speakerdeck.com/vibhu4agarwal/developing-an-sso-service-using-django-pycon-sweden-2020) | [YouTube](https://youtu.be/4BN2Np7fUqY) |
-| [**PyCon India 2020**](https://in.pycon.org/2020/) | 15:20 IST, October 3, 2020 | Online | [Link](https://speakerdeck.com/vibhu4agarwal/developing-an-sso-service-using-django) | [Hopin](https://app.hopin.to/events/pyconindia2020/) |
+| [**PyCon India 2020**](https://in.pycon.org/2020/) | 15:20 IST, October 3, 2020 | Online | [Link](https://speakerdeck.com/vibhu4agarwal/developing-an-sso-service-using-django) | [YouTube](https://youtu.be/JOMHAJNiQg8), [Hopin](https://app.hopin.to/events/pyconindia2020/) |
 
 
 ## **Description:**
