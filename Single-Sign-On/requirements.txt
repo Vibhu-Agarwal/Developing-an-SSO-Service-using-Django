@@ -15,7 +15,7 @@ idna==2.10
 importlib-metadata==2.0.0
 Markdown==3.2.2
 phonenumbers==8.12.9
-Pillow==7.2.0
+Pillow==8.1.1
 psycopg2-binary==2.8.6
 pycparser==2.20
 PyJWT==1.7.1
