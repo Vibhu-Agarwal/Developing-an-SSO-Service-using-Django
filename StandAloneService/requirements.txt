@@ -5,7 +5,7 @@ Django==3.1.9
 djangorestframework==3.11.2
 djangorestframework-simplejwt==4.4.0
 pycparser==2.20
-PyJWT==1.7.1
+PyJWT==2.4.0
 pytz==2020.1
 six==1.15.0
 sqlparse==0.3.1
